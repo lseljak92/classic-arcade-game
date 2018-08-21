@@ -19,7 +19,7 @@ Enemy.prototype.update = function(dt) {
     this.x += this.speed * dt;
     if(this.x > 550){
         this.x = -100;
-        this.speed = 100 + Math.floor(Math.random() * 512);
+        this.speed = 100 + Math.floor(Math.random() * 500);
     }   
 
     if(player.x < this.x + 60 &&
@@ -96,7 +96,7 @@ var enemy;
 var enemyLocation = [60, 140, 220];
 
 enemyLocation.forEach(function(positionY){
-    enemy = new Enemy(0, positionY, 100 + Math.floor(Math.random()* 512));
+    enemy = new Enemy(0, positionY, 100 + Math.floor(Math.random()* 500));
     allEnemies.push(enemy);
 })
 
