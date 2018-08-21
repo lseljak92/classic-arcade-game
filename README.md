@@ -1,6 +1,28 @@
 frontend-nanodegree-arcade-game
 ===============================
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+## Table of Contents
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+* [Instructions](#instructions)
+* [How to Play](#howtoplay)
+* [Acknowledgements](#acknowledgements)
+
+## Instructions
+
+Clone or download the project to create a copy on your local machine. If you need help on cloning the repository using the command line follow this link: https://services.github.com/on-demand/github-cli/clone-repo-cli. Once you are all set, open index.html and start playing!
+
+## How to Play
+
+The goal of this game is to reach the water avoiding the collision with the bugs (enemies). The player is able to move left, right, up and down. The enemies move at random speeds on the paved block section of the screen.
+If the player collides with a bug, the game is reset and the player is relocated to its starting position.
+
+## Acknowledgements
+
+* Udacity supplied the starter HTML, CSS and JS codes for this project.
+* Referred to the following resources for inspiration and guidance:
+    - https://github.com/lacyjpr/arcade
+    - https://github.com/lacyjpr/arcade/blob/master/js/app.js
+    - http://irene.marin.cat/udacity/project3/index.html
+    - https://knowledge.udacity.com/questions/7746
+    - https://knowledge.udacity.com/questions/7045
+    - Udacity taught me all of the content developed in this project which let me successfully complete it. My course mentor and fellow students from this program also provided me with suggestions, resources, information and encouragement throughout this project.
