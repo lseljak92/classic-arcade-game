@@ -4,7 +4,7 @@ frontend-nanodegree-arcade-game
 ## Table of Contents
 
 * [Instructions](#instructions)
-* [How to Play](#howtoplay)
+* [How to Play](#how to play)
 * [Acknowledgements](#acknowledgements)
 
 ## Instructions
