@@ -4,14 +4,14 @@ frontend-nanodegree-arcade-game
 ## Table of Contents
 
 * [Instructions](#instructions)
-* [How to Play](#how to play)
+* [Usage](#usage)
 * [Acknowledgements](#acknowledgements)
 
 ## Instructions
 
 Clone or download the project to create a copy on your local machine. If you need help on cloning the repository using the command line follow this link: https://services.github.com/on-demand/github-cli/clone-repo-cli. Once you are all set, open index.html and start playing!
 
-## How to Play
+## Usage
 
 The goal of this game is to reach the water avoiding the collision with the bugs (enemies). The player is able to move left, right, up and down. The enemies move at random speeds on the paved block section of the screen.
 If the player collides with a bug, the game is reset and the player is relocated to its starting position.
