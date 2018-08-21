@@ -1,3 +1,5 @@
+'use strict';
+var tries = 3;
 // Enemies our player must avoid
 var Enemy = function(x, y, speed) {
     this.x = x;
@@ -20,12 +22,13 @@ Enemy.prototype.update = function(dt) {
         this.speed = 100 + Math.floor(Math.random() * 512);
     }   
 
-    if(player.x < this.x +60 &&
+    if(player.x < this.x + 60 &&
         player.x + 37 > this.x &&
         player.y < this.y + 25 &&
         30 + player.y > this.y) {
             player.x = 200;
             player.y = 380;
+            tries --;
         }
 };
 
